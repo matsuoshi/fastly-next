@@ -5,6 +5,7 @@
     "react-dom": "^18.2.0"
   },
   "scripts": {
+    "start": "next dev",
     "fastly-serve": "next build && cd compute-js && fastly compute serve",
     "fastly-publish": "next build && cd compute-js && fastly compute publish"
   }
